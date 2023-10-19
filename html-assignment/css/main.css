@@ -23,10 +23,15 @@ header, footer {
     background-color: rgb(173, 193, 183);
 }
 
-nav a {
+nav ul {
+    list-style: none;
     text-decoration: none;
     background-color: rgb(213, 224, 218);
     border: 2px solid black;
+}
+
+nav a {
+    text-decoration: none;
 }
 
 nav a:hover {
