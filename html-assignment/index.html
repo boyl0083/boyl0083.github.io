@@ -3,17 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Eric Boyle - Home</title>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <header>
+    <header class="site-title">
         <h1>Eric Boyle</h1>
+       
         <nav>
 
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="notes.html">Notes</a></li>
-            </ul>
+            <a href="index.html">Home</a>
+            <a href="notes.html">Notes</a>
+            
         </nav>
+
     </header>
     <hr>
     <a href="#hobbies">My Hobbies</a>
@@ -21,10 +23,10 @@
     <main>
         <article>
         <section> 
-            <img src="images/image.jpg" alt="me"/>  
-            <header>
-                <h2>About Me:</h2>
-            </header>
+            <img src="images/image.jpg" alt="me" id="my-image"/>  
+            
+             <h2>About Me:</h2>
+    
         <p>
             My name is Eric Boyle, I was born and raised in the city of Oshawa. I just moved to Ottawa at the beginning of September, and thoroughly enjoy living here! I am currently 20 years old and will be celebrating my 21<sup>st</sup> birthday in November. I think that <em>life</em> shouldn't be all about school and work, so when I have free time, I usually spend it pursuing my <a href="#hobbies">hobbies</a>, because this allows me to have balance in my <em>life</em>.
         </p>
@@ -34,15 +36,17 @@
     </section>   
         <hr>
         <section id="hobbies">
-            <header>
-                <h2>My Hobbies:</h2>
-                <ul>
+            
+            <h2>My Hobbies:</h2>
+
+                <ul id="my-hobbies">
                     <li>Photography</li>
                     <li>Reading</li>
                     <li>Writing</li>
                     <li>Working Out</li>
+                    <li>Travelling</li>
                 </ul>
-            </header>
+           
         </section>
         <hr>
         <blockquote>"Success is not final; failure is not fatal: It is the courage to continue that counts."<cite>— Winston S. Churchill</cite></blockquote>

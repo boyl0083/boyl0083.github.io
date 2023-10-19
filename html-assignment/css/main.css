@@ -1,0 +1,40 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: justify;
+    text-justify: auto;
+}
+
+header, footer {
+    background-color: rgb(173,193,183);
+}
+
+.site-title {
+    color: white;
+}
+
+#my-image {
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+#my-hobbies {
+    list-style-type: square;
+}
+
+#my-hobbies :nth-child(odd) {
+    background-color: rgb(173, 193, 183);
+}
+
+nav a {
+    text-decoration: none;
+    background-color: rgb(213, 224, 218);
+    border: 2px solid black;
+}
+
+nav a:hover {
+    background-color: rgb(95, 134, 116);
+}
+
+nav a:focus {
+    background-color: rgb(95, 134, 116);
+}
