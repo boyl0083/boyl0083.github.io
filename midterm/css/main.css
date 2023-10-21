@@ -15,7 +15,27 @@ h1 {
     width: 100%;
 }
 
-nav li {
-    display: inline;
+nav ul {
+    list-style: none;
     text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul a {
+    color: darkslategray;
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: block;
+}
+
+img {
+    width: 200px;
+    float: left;
+}
+
+p {
+    text-wrap: right;
 }
