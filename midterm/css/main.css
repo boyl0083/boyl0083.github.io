@@ -1,0 +1,21 @@
+h1 {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#image-lone-starfish-wide {
+    width: 100%;
+}
+
+nav li {
+    display: inline;
+    text-align: center;
+}
