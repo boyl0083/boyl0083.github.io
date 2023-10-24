@@ -70,37 +70,48 @@
 
             </section>
 
+            <!-- creates section for "contact to learn more" form -->
+
             <section>
-
-                <h3>Contact</h3>
-                <fieldset>
-                        <label for="fullname">Your Name</label>
-                        <input id="fullname">
-
-                        <label for="email">Your Email</label>
-                        <input id="fullname">
+                <h3>Contact To Learn More</h3>
+                <div>
+                    <form action="contact.html" method="post">
+                        <fieldset class="form-box">
                     
-                        <label for="message">Your Message</label>
-                        <textarea id="message"></textarea>
+                                <label for="full-name">Your Name</label>
+                                <input name="full-name" id="full-name" type="text">
                     
-                        <h3>Would you like to visit the Starfish?</h3>
+                                <label for="email">Your Email</label>
+                                <input name="email" id="email" type="text">
+                          
+                                <label for="message">Your Message</label>
+                                <textarea name="message" id="message" type="text"></textarea>
+                            
+                            <!-- adds radio form to index.html -->
 
-                            <label for="yes">Yes</label>
-                            <input type="radio" id="yes" name="visit" value="yes">
+                            <h4>Would you like to visit the Starfish?</h4>
 
-                            <label for="no">No</label>
-                            <input type="radio" id="no" name="visit" value="no" checked>
+                            <div class="radio-form">
+                                <label class="radio-text">Yes</label>
+                                <input type="radio" id="yes" name="visit" value="yes">
 
-                            <label for="maybe">Maybe</label>
-                            <input type="radio" id="maybe" name="visit" value="maybe">
+                                <label class="radio-text">No</label>
+                                <input type="radio" id="no" name="visit" value="no">
 
-                            <button type="submit">Send</button>
-                        </form>
-                </fieldset>
+                                <label class="radio-text">Maybe</label>
+                                <input type="radio" id="maybe" name="visit" value="maybe">
+                            </div>
+                            <input type="submit" value="send">
+                        </fieldset>
+                    </form>
+                </div>
             </section>
 
         </article>
-
+        <!-- adds footer section for copywrite text -->
+        <footer class="footer">
+            <p>Lone Starfish.</p>
+        </footer>
     </main>
 </body>
 
