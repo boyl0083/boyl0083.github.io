@@ -9,10 +9,9 @@ html {
 }
 
 body {
-    background-color: lightblue;
+    background-color: #D5E9E7;
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 15px;
-    padding-right: 15px;
+    box-sizing: inherit;
     padding: 0%;
     margin-top: 0;
 }
@@ -24,7 +23,6 @@ body {
     height: auto;
     margin: auto;
     position: relative;
-    header 
     padding: 0;
 }
 
@@ -36,6 +34,7 @@ header img {
     text-align: center;
     position: relative;
     width: 100%;
+    height: 300px;
     color: white;
     left: 0;
     bottom: 156px;
@@ -64,6 +63,10 @@ nav ul a {
     color: black;
     text-decoration: none;
     display: block;
+}
+
+.middle-nav {
+    border: 1px black;
 }
 
 /* css for article and image contained in article */
@@ -106,5 +109,12 @@ input[type=submit] {
     padding-top: 30px;
 }
 
+/* adds css to the footer */
+
+.footer {
+    text-align: right;
+    padding: 0px 20px 30px;
+    margin: 10px;
+}
 
 
