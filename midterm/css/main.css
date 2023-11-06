@@ -66,15 +66,39 @@ nav ul a {
 }
 
 .middle-nav {
-    border: 1px black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
 }
 
 /* css for article and image contained in article */
 
+article {
+    margin: 1em;
+}
+
+h2 {
+    font-size: 34px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h1, h2, h3, h4 {
+    margin: 20px 0px 10px;
+    font-weight: lighter;
+}
+
 img {
     width: 200px;
     float: left;
-    padding: 1rem;
+    padding: 1em;
+    padding-top: 0;
+    padding-left: 0;
+}
+
+.facts-list {
+    padding: 0px 15px 0px;
 }
 
 /* adds css to "Contact to Learn More" */
