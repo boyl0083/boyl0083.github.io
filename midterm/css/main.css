@@ -1,32 +1,72 @@
-/* adds css to headers */
+/* adds css to html and body */
 
+html {
+    background-color: #aad4cf;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+body {
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding: 0%;
+    margin-top: 0;
+}
 
 /* adds css to main header and banner */
 
-
-#image-lone-starfish-wide {
+#starfish-wide {
     width: 100%;
-    position: relative;
     height: auto;
+    margin: auto;
+    position: relative;
+    header 
+    padding: 0;
+}
+
+header img {
+    padding: 0;
+}
+
+.page-heading {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    color: white;
+    left: 0;
+    bottom: 156px;
+    margin: 0;
+    font-size: 60px;
 }
 
 /* adds css to naigation of website */
 
 nav ul {
     list-style: none;
+    color: black;
+    text-transform: uppercase;
+    font-size: 24px;
+    margin: 0 auto;
+    padding-left: 0px;
+}
+
+nav li {
+    display: inline-block;
+    width: 32%;
     text-align: center;
 }
 
-nav ul li {
-    display: inline-block;
-}
-
 nav ul a {
-    color: darkslategray;
+    color: black;
     text-decoration: none;
-    font-size: 1.5rem;
     display: block;
 }
+
+/* css for article and image contained in article */
 
 img {
     width: 200px;
@@ -34,10 +74,7 @@ img {
     padding: 1rem;
 }
 
-.form-box {
-    border: 1px solid black;
-    padding-top: 30px;
-}
+/* adds css to "Contact to Learn More" */
 
 input[type=text],
 input[type=email] {
@@ -64,46 +101,10 @@ input[type=submit] {
     display: inline-block;
 }
 
-html {
-    background-color: #aad4cf;
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-top: 0;
-    margin-top: 0;
+.form-box {
+    border: 1px solid black;
+    padding-top: 30px;
 }
 
-body {
-    background-color: lightblue;
-    font-family: 'Times New Roman', Times, serif;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding: 0%;
-    margin-top: 0;
-}
 
-.header {
-    margin: 0 auto;
-}
 
-.page-heading {
-    color: white;
-    text-align: center;
-    position: relative;
-    width: 100%;
-    bottom: 156px;
-}
-
-#starfish-wide {
-    width: 100%;
-    height: auto;
-    margin: auto;
-    position: relative;
-}
-
-h1 {
-    margin: 0;
-}
-
-header img {
-    padding: 0;
-}
