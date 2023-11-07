@@ -76,6 +76,16 @@ article {
     margin: 1em;
 }
 
+img {
+    width: 200px;
+    float: left;
+    padding: 1em;
+    padding-top: 0;
+    padding-left: 0;
+}
+
+/* css for headings */
+
 h2 {
     font-size: 34px;
 }
@@ -87,14 +97,6 @@ h3 {
 h1, h2, h3, h4 {
     margin: 20px 0px 10px;
     font-weight: lighter;
-}
-
-img {
-    width: 200px;
-    float: left;
-    padding: 1em;
-    padding-top: 0;
-    padding-left: 0;
 }
 
 .facts-list {
@@ -127,6 +129,8 @@ input[type=submit] {
     background-color: transparent;
     display: inline-block;
 }
+
+/* adds box around "Contact To Learn More" */
 
 .form-box {
     border: 1px solid black;
