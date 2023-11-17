@@ -172,7 +172,7 @@ p {
 /** desktop styles **/
 
 @media screen and (min-width:600px) {
-    
+
     html {
         font-size: 16px;
     }
@@ -230,5 +230,4 @@ p {
     .actions-list li {
         max-width: 20%;
     }
-
 }
