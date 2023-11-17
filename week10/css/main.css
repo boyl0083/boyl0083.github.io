@@ -30,15 +30,22 @@ img {
 
 /* loVe HAte - Link, Visited, Hover/Focus, Active */
 
-a, a:link, a:visited {
+a,
+a:link,
+a:visited {
     color: inherit;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
     color: #00add8;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-weight: bold;
     margin: 1em 0 0.5em;
 }
@@ -99,6 +106,25 @@ p {
     text-transform: uppercase;
 }
 
+.nav-list li {
+    border-bottom: 1px solid grey;
+    text-align: center;
+}
+
+/* LoVe HAte */
+
+.nav-list a,
+.nav-list a:link,
+.nav-list a:visited {
+    display: block;
+    padding: 1em 0;
+    text-decoration: none;
+}
+
+.nav-list a:hover, .nav-list a:focus, .nav-list a.current {
+    background-color: #00add8;
+}
+
 .btn {
     text-decoration: none;
     display: inline-block;
@@ -108,7 +134,7 @@ p {
     color: inherit;
 }
 
-.btn:hover, 
+.btn:hover,
 .btn:focus {
     background-color: #00add8;
     color: inherit;
