@@ -6,6 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Project</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
 
 <!-- creates body of website -->
@@ -37,8 +40,14 @@
 
                     <!-- creates search bar within nav -->
 
-                    <li><input type="text" name="q" placeholder="Search...">
-                        <input type="submit" value="Search"></li>
+                    <li>
+                        <div>
+                            <form action="#">
+                                <input type="text" name="search" id="search" placeholder="Search...">
+                                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                            </form>
+                        </div>
+                    </li>
                 </ul>
             </nav>
 
@@ -57,7 +66,7 @@
 
                 <!-- creates link to "Connect with us"-->
 
-                <a href="#">Connect with us &blacktriangleright;</a>
+                <a href="#">Connect with us <i class="fa-solid fa-caret-right"></i></a>
 
             </div>
         </div>
@@ -95,7 +104,7 @@
                     Maiores
                     inventore reiciendis sequi ipsa sint amet neque dolorem. Recusandae nesciunt soluta molestiae magni
                     quisquam pariatur?</p>
-                <a href="#">Digital Plans &blacktriangleright;</a>
+                <a href="#">Digital Plans <i class="fa-solid fa-caret-right"></i>;</a>
 
             </div>
 
@@ -108,7 +117,7 @@
                     illo neque, commodi culpa recusandae, esse facere at voluptates aut, magni ratione voluptate
                     accusantium
                     sed?</p>
-                <a href="#">Marketing Plans &blacktriangleright;</a>
+                <a href="#">Marketing Plans <i class="fa-solid fa-caret-right"></i></a>
 
             </div>
 
@@ -121,7 +130,7 @@
                     tenetur id, optio hic quasi doloribus laudantium quos? Ab soluta exercitationem optio alias dolore
                     sit.
                 </p>
-                <a href="#">Video Plans &blacktriangleright;</a>
+                <a href="#">Video Plans <i class="fa-solid fa-caret-right"></i></a>
 
             </div>
 
@@ -134,7 +143,7 @@
                     cumque voluptatum eaque incidunt! Omnis, consectetur quae ut vero perspiciatis architecto iste!
                     Illum,
                     quasi numquam.</p>
-                <a href="#">Web Plans &blacktriangleright;</a>
+                <a href="#">Web Plans <i class="fa-solid fa-caret-right"></i></a>
 
             </div>
 
@@ -145,7 +154,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, incidunt dolore doloremque accusamus
                     voluptatum quasi culpa id cumque! Exercitationem eaque qui eveniet, libero vitae beatae repudiandae
                     sapiente perferendis eos aut?</p>
-                <a href="#">Print Plans &blacktriangleright;</a>
+                <a href="#">Print Plans <i class="fa-solid fa-caret-right"></i></a>
 
             </div>
 
@@ -161,7 +170,7 @@
                 reprehenderit! Quaerat iste beatae quam. Ipsam repellat maiores deleniti unde quidem nam commodi iusto
                 dolor
                 magnam.</p>
-            <a href="#">Learn More &blacktriangleright;</a>
+            <a href="#">Learn More <i class="fa-solid fa-caret-right"></i></a>
 
         </section>
 
@@ -256,7 +265,18 @@
 
             <div>
                 <h3>Location</h3>
-                <img src="" alt="">
+
+                <!-- creates div for embedded map -->
+
+                <div class="map">
+
+                    <!-- adds embedded map to html -->
+
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.944456596001!2d-75.75750598760565!3d45.3499334709517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1701470403975!5m2!1sen!2sca"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
 
         </section>
