@@ -11,6 +11,9 @@
 <!-- creates body of website -->
 
 <body>
+
+    <!-- creates main -->
+
     <main>
         <!-- creates header for company logo and nav  -->
 
@@ -37,7 +40,6 @@
                     <li><input type="text" name="q" placeholder="Search...">
                         <input type="submit" value="Search"></li>
                 </ul>
-
             </nav>
 
         </header>
@@ -50,11 +52,13 @@
 
         <!-- creates external link to -->
 
-        <a target="_blank" href="#">Connect with us</a>
+        <a href="#">Connect with us</a>
 
         <!-- adds main-banner image to section -->
 
         <img class="main-banner-image" src="images/main-banner.jpg" alt="">
+
+        <!-- creates div for "about us" -->
 
         <div class="about-us">
 
@@ -72,25 +76,28 @@
 
         </div>
 
-        <!-- creates section for "our services" -->
+        <!-- creates section for "Our Services" with 5 divs -->
 
-        <section>
+        <section class="our-services">
 
             <h2>Our Services</h2>
 
             <!-- creates 5 divs for each service -->
 
-            <div>
+            <div class="digital">
+
                 <img src="images/digital.jpg" alt="">
                 <h3>Digital </h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni culpa atque qui laborum deleniti.
                     Maiores
                     inventore reiciendis sequi ipsa sint amet neque dolorem. Recusandae nesciunt soluta molestiae magni
                     quisquam pariatur?</p>
+                <a href="#">Digital Plans</a>
 
             </div>
 
-            <div>
+            <div class="marketing">
+
                 <img src="images/marketing.jpg" alt="">
                 <h3>Marketing</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A alias cum reprehenderit delectus laborum
@@ -98,10 +105,12 @@
                     illo neque, commodi culpa recusandae, esse facere at voluptates aut, magni ratione voluptate
                     accusantium
                     sed?</p>
+                <a href="#">Marketing Plans</a>
 
             </div>
 
-            <div>
+            <div class="video">
+
                 <img src="images/video.jpg" alt="">
                 <h3>Video Production</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nulla illum quae sapiente quas
@@ -109,10 +118,12 @@
                     tenetur id, optio hic quasi doloribus laudantium quos? Ab soluta exercitationem optio alias dolore
                     sit.
                 </p>
+                <a href="#">Video Plans</a>
 
             </div>
 
-            <div>
+            <div class="web">
+
                 <img src="images/web.jpg" alt="">
                 <h3>Web Development</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, libero itaque? Assumenda numquam ex,
@@ -120,20 +131,24 @@
                     cumque voluptatum eaque incidunt! Omnis, consectetur quae ut vero perspiciatis architecto iste!
                     Illum,
                     quasi numquam.</p>
+                <a href="#">Web Plans</a>
 
             </div>
 
-            <div>
+            <div class="print">
+
                 <img src="images/print.jpg" alt="">
                 <h3>Print</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, incidunt dolore doloremque accusamus
                     voluptatum quasi culpa id cumque! Exercitationem eaque qui eveniet, libero vitae beatae repudiandae
                     sapiente perferendis eos aut?</p>
+                <a href="#">Print Plans</a>
 
             </div>
 
         </section>
 
+        <!-- creates section for "Our Vision" -->
 
         <section>
 
@@ -144,16 +159,22 @@
                 reprehenderit! Quaerat iste beatae quam. Ipsam repellat maiores deleniti unde quidem nam commodi iusto
                 dolor
                 magnam.</p>
+            <a href="#">Learn More</a>
 
         </section>
+
+        <!-- creates section for "Our Team" -->
 
         <section>
 
             <h2>Our Team</h2>
 
-            <div>
+            <!-- adds div for John -->
+
+            <div class="john">
                 <img src="images/john.jpg" alt="">
                 <h3>John</h3>
+                <h4>CEO and Co-owner</h4>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut dolores itaque blanditiis molestiae
                     amet id
                     voluptatem vero voluptas voluptatibus expedita atque ipsum soluta placeat, illum dignissimos
@@ -162,9 +183,13 @@
 
             </div>
 
-            <div>
+            <!-- adds div for Bob -->
+
+            <div class="bob">
+
                 <img src="images/bob.jpg" alt="">
                 <h3>Bob</h3>
+                <h4>CFO and Co-owner</h4>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit doloremque quia amet fuga iure
                     similique
                     et, harum illum! Obcaecati, qui laudantium earum dolores placeat at explicabo commodi fugit quos
@@ -175,14 +200,17 @@
 
         </section>
 
+        <!-- creates section for "Contact Us" -->
+
         <section>
 
             <h2>Contact Us</h2>
 
-            <div>
+            <div class="message-us">
+
                 <h3>Send us a message</h3>
 
-                <!-- creates form and includes name, email and message boxes -->
+                <!-- adds form and includes name, email and message boxes -->
 
                 <form action="thanks.html" method="post">
                     <label for="fullname">Name</label>
@@ -196,12 +224,15 @@
 
                     <button>Send</button>
                 </form>
+
             </div>
 
-            <!-- creates div for "Hours of Operation" table -->
+            <!-- adds div for "Hours of Operation" table -->
 
-            <div>
+            <div class="hours-of-operation">
+
                 <h3>Hours of Operation</h3>
+
                 <table>
                     <tr>
                         <td>Days</td>
@@ -216,6 +247,7 @@
                         <td>Closed</td>
                     </tr>
                 </table>
+
             </div>
 
             <!-- creates div for "Location" -->
