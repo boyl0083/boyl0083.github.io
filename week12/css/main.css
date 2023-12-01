@@ -1,0 +1,39 @@
+/* 
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+*/
+
+h1, h2{
+    font-family: 'Playfair Display', serif;
+}
+
+h1{
+    font-weight: 700;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+.fa-paint-roller{
+    font-size: 10rem;
+    color: aquamarine;
+}
+.max-mar{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.main{
+    background-color: antiquewhite;
+}
+.head{
+    background-color: blanchedalmond;
+}
+.container{
+    background-color: cadetblue;
+}
+
+.map iframe {
+width:100%;
+max-width: 800px;
+margin: 0 auto;
+display:block;
+}
