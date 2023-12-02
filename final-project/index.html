@@ -16,67 +16,63 @@
 
 <body>
 
+    <!-- creates header for company logo, nav, and main banner  -->
+
+    <header>
+
+        <!-- creates navigation for website -->
+
+        <nav>
+            <ul>
+                <li><img src="images/logo.png" alt=""></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Contact</a></li>
+
+                <!-- creates search bar within nav -->
+
+                <li>
+                    <div>
+                        <form action="#">
+                            <input type="text" name="search" id="search" placeholder="Search...">
+                            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- creates section for main banner  -->
+
+        <div class="main-banner">
+
+            <div class="main-banner-content">
+
+                <h1 class="star-media">Welcome to Three Star Media</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa expedita esse tenetur odit eos?
+                    Placeat
+                    maiores
+                    magnam vel aut unde rerum cupiditate, molestias natus hic quo asperiores laboriosam quos
+                    impedit.
+                </p>
+
+                <!-- creates link to "Connect with us"-->
+
+                <a href="#">Connect with us <i class="fa-solid fa-caret-right"></i></a>
+
+            </div>
+
+    </header>
+
     <!-- creates main -->
 
     <main>
-        <!-- creates header for company logo, nav, and main banner  -->
-
-        <header>
-
-            <!-- creates div for logo  -->
-
-            <div class="logo">
-                <img src="images/logo.png" alt="">
-            </div>
-
-            <!-- creates navigation for website -->
-
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#">Contact</a></li>
-
-                    <!-- creates search bar within nav -->
-
-                    <li>
-                        <div>
-                            <form action="#">
-                                <input type="text" name="search" id="search" placeholder="Search...">
-                                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-                            </form>
-                        </div>
-                    </li>
-                </ul>
-            </nav>
-
-            <!-- creates section for main banner  -->
-
-            <div class="banner">
-
-                <div class="content">
-
-                    <h1 class="star-media">Welcome to Three Star Media</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa expedita esse tenetur odit eos?
-                        Placeat
-                        maiores
-                        magnam vel aut unde rerum cupiditate, molestias natus hic quo asperiores laboriosam quos
-                        impedit.
-                    </p>
-
-                    <!-- creates link to "Connect with us"-->
-
-                    <a href="#">Connect with us <i class="fa-solid fa-caret-right"></i></a>
-
-                </div>
-
-        </header>
 
         <!-- creates section for "about us" -->
 
-        <section class="">
+        <section class="about-us" id="about-us">
 
             <div class="about-image">
 
@@ -84,7 +80,7 @@
                     <img src="images/about-us.jpg" alt="">
                 </div>
 
-                <div class="about-us">
+                <div class="about-us-content">
 
                     <h2>About Us</h2>
 
@@ -108,7 +104,7 @@
 
         <!-- creates section for "Our Services" with 5 divs -->
 
-        <section class="our-services">
+        <section class="our-services" id="our-services">
 
             <h2>Our Services</h2>
 
@@ -116,7 +112,7 @@
 
             <div class="card a">
 
-                <div>
+                <div class="digital">
                     <img src="images/digital.jpg" alt="">
                 </div>
 
@@ -134,7 +130,7 @@
 
             <div class="card b">
 
-                <div>
+                <div class="marketing">
                     <img src="images/marketing.jpg" alt="">
                 </div>
 
@@ -153,7 +149,7 @@
 
             <div class="card c">
 
-                <div>
+                <div class="video">
                     <img src="images/video.jpg" alt="">
                 </div>
 
@@ -172,7 +168,7 @@
 
             <div class="card d">
 
-                <div>
+                <div class="web">
                     <img src="images/web.jpg" alt="">
                 </div>
 
@@ -191,7 +187,7 @@
 
             <div class="card e">
 
-                <div class="">
+                <div class="print">
                     <img src="images/print.jpg" alt="">
                 </div>
 
@@ -211,10 +207,12 @@
 
         <!-- creates section for "Our Vision" -->
 
-        <section class="our-vision">
+        <section class="our-vision" id="our-vision">
 
-            <div>
-                <h2>Our Vision</h2>
+            <h2>Our Vision</h2>
+
+            <div class="vision-content">
+
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita deserunt consequatur dicta
                     repellendus
                     non
@@ -223,13 +221,14 @@
                     dolor
                     magnam.</p>
                 <a href="#">Learn More <i class="fa-solid fa-caret-right"></i></a>
+
             </div>
 
         </section>
 
         <!-- creates section for "Our Team" -->
 
-        <section class="our-team">
+        <section class="our-team" id="our-team">
 
             <h2>Our Team</h2>
 
@@ -239,7 +238,7 @@
                 <div class="image-john">
                     <img src="images/john.jpg" alt="">
                 </div>
-                <div>
+                <div class="john-content">
                     <h3>John</h3>
                     <h4>CEO and Co-owner</h4>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut dolores itaque blanditiis molestiae
@@ -258,7 +257,7 @@
                 <div class="image-bob">
                     <img src="images/bob.jpg" alt="">
                 </div>
-                <div>
+                <div class="bob-content">
                     <h3>Bob</h3>
                     <h4>CFO and Co-owner</h4>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit doloremque quia amet fuga iure
@@ -274,7 +273,7 @@
 
         <!-- creates section for "Contact Us" -->
 
-        <section>
+        <section class="contact-us" id="contact-us">
 
             <h2>Contact Us</h2>
 
@@ -324,10 +323,11 @@
 
             <!-- creates div for "Location" -->
 
-            <div>
+            <div class="location">
+
                 <h3>Location</h3>
 
-                <!-- creates div for embedded map -->
+                <!-- creates div for map -->
 
                 <div class="map">
 
@@ -338,6 +338,7 @@
                         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
+
             </div>
 
         </section>
