@@ -1,3 +1,60 @@
+html {
+  margin: 0 auto;
+}
+
+/* body and heading sizes */
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+h1 {
+  font-size: 52px;
+  font-weight: 700;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0 auto;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.heading-with-line {
+  position: relative;
+  display: inline-block;
+  background-color: transparent;
+  font-size: 18px;
+  border-bottom: 1px solid #c78c06;
+  width: 100%;
+}
+
+/* h1 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #222222;
+} */
+
+/* header and nav*/
+
 header {
   background-color: #222222;
   padding: 1rem;
@@ -5,6 +62,11 @@ header {
 
 header nav {
   text-align: center;
+}
+
+.star-background {
+  background-color: #c78c06;
+  display: block;
 }
 
 nav ul {
@@ -26,31 +88,65 @@ ul li {
   color: #c78c06;
 }
 
+form button {
+  border: 1px solid #c78c06;
+  background-color: transparent;
+  color: #c78c06;
+}
+
+/* Welcome to Three Star Media banner */
+
 .main-banner {
   background-image: url(../images/main-banner.jpg);
-  background-size: auto;
-  padding: 2rem 0 2rem;
+  background-position: center;
+  background-size: cover;
+  height: auto;
+  padding-top: 15em;
+  padding-bottom: 15em;
 }
 
 .main-banner-content {
   width: 100%;
-  position: relative;
   background-color: rgba(0, 0, 0, 0.385);
-  margin: 0;
-  padding: 1rem 1rem 2rem;
+  min-height: 200px;
+  margin: auto;
+  padding: auto;
   border: 1rem;
+  color: #ffffff;
 }
+
+/* connect with us */
+
+.connect-button {
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 0;
+  border: 0;
+  background-color: #c78c06;
+  color: #222222;
+}
+
+/* about us section */
 
 .about-us {
   background-color: #ffe6ac;
   margin-top: -1rem;
+  width: 100%;
 }
 
 .about {
   margin: 0.8rem;
-  width: 95%;
+  width: 100%;
   background-color: transparent;
 }
+
+.about-img {
+  display: block;
+  margin: 0;
+  width: 100%;
+}
+
+/* our services section */
 
 .services-image {
   width: 100%;
@@ -63,4 +159,398 @@ ul li {
   margin: 0;
   padding: 1rem 1rem 2rem;
   border: 1rem;
+}
+
+.our-services-button {
+  padding: 1rem;
+  background-color: #222;
+  color: white;
+  text-decoration: none;
+}
+
+/* our vuision */
+
+.vision {
+  background-image: url(../images/vision.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding: 20px 70px;
+  color: #ffffff;
+}
+
+.our-vision-button {
+  margin-top: 7rem;
+  padding: 1rem;
+  padding-top: 0.3rem;
+  border: 1px solid #c78c06;
+  background-color: rgba(0, 0, 0, 0.385);
+  color: white;
+  text-decoration: none;
+  justify-content: center;
+}
+
+/* our team */
+
+.john-content {
+  background-color: #ffe6ac;
+}
+
+.bob-content {
+  background-color: #ffe6ac;
+}
+
+.image-john img {
+  width: 100%;
+  height: 100%;
+}
+
+.image-bob img {
+  width: 100%;
+  height: 100%;
+}
+
+.card-10,
+.card-12 {
+  width: 100%;
+}
+
+/* contact us */
+
+form {
+  display: block;
+}
+
+input,
+textarea {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  margin: 0.5rem 0 0.5rem;
+  resize: none;
+}
+
+.send-button {
+  border: 0;
+  background-color: #222222;
+  color: #c78c06;
+  padding: 10px 15px;
+}
+
+/* table */
+
+table {
+  width: 100%;
+  color: #222222;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid black;
+  padding: 5px 10px;
+}
+
+th {
+  background-color: #ffe6ac;
+}
+
+/* location */
+
+.map {
+  width: 100%;
+  border: 0;
+  padding: 0 auto;
+}
+
+/* footer */
+
+footer {
+  background-color: #222222;
+  color: #c78c06;
+}
+
+@media screen and (min-width:760px) {
+
+  html {
+    margin: 0 auto;
+  }
+
+  body {
+    max-width: 100%;
+  }
+
+  h1 {
+    font-size: 52px;
+    font-weight: 700;
+    margin: 0 auto;
+  }
+
+  h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 0 auto;
+  }
+
+  h3 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  h4 {
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  /* header/navigation */
+
+  nav,
+  .navigation form {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 70px;
+  }
+
+  nav ul {
+    display: flex;
+    align-content: stretch;
+    flex-grow: 1;
+    justify-content: space-evenly;
+  }
+
+  nav ul li {
+    display: inline-flex;
+  }
+
+  .main-banner {
+    background: url(../images/main-banner.jpg) no-repeat center;
+    background-size: cover;
+    margin-top: 1em;
+  }
+
+  .main-banner-content {
+    background: rgba(0, 0, 0, 0.50);
+    margin: 1em 6em 1em 6em;
+  }
+
+  /* about us */
+
+  .about-us {
+    padding: 10px 50px;
+  }
+
+  .about-img {
+    width: 100%;
+  }
+
+  .about-head {
+    margin: 10px;
+    display: flex;
+  }
+
+  .about-text {
+    margin: 10px;
+    display: flex;
+  }
+
+  .about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
+
+  /* our services */
+
+  .our-services {
+    display: grid;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1rem;
+  }
+
+  .services {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+    margin-left: 0.1em;
+  }
+
+  .card-3 {
+    grid-column: 1 / span 3;
+    grid-row: 4;
+  }
+
+  .card-4 {
+    grid-column: 4 / span 3;
+    grid-row: 4;
+    align-self: end;
+  }
+
+  .card-5 {
+    grid-column: 1 / span 2;
+    grid-row: 5;
+  }
+
+  .card-6 {
+    grid-column: 3 / span 2;
+    grid-row: 5;
+  }
+
+  .card-7 {
+    grid-column: 5 / span 2;
+    grid-row: 5;
+  }
+
+  .our-services-button {
+    max-width: 100%;
+    margin: 10px auto;
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+  }
+
+  /* our vision */
+
+  .vision {
+    margin-top: 20px;
+    width: auto;
+    height: auto;
+    padding-top: 10em;
+    padding-bottom: 10em;
+  }
+
+  .our-vision-button {
+    margin-top: 7rem;
+    padding: 1rem;
+    padding-top: 0.2rem;
+    border: 1px solid #c78c06;
+    background-color: rgba(0, 0, 0, 0.385);
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+  }
+
+  /* our team */
+
+  .our-team {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 3;
+    grid-row: 1;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  .our-team-h2 {
+    padding-top: 1em;
+    padding-bottom: 0.5em;
+    font-size: 3em;
+    font-weight: 700;
+    margin-left: 0.3em;
+  }
+
+  .our-team {
+    grid-template-areas:
+      "h2 h2"
+      "john-img john-text"
+      "bob-text bob-img"
+    ;
+  }
+
+  .our-team-h3 {
+    font-size: 2em;
+    font-weight: 600;
+    margin: 0.5em 0.5em 0.5em 0.8em;
+    padding-top: 10px;
+  }
+
+  .image-john {
+    grid-area: john-img;
+  }
+
+  .image-bob {
+    grid-area: bob-img;
+  }
+
+  .image-john img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .image-bob img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .john-content {
+    grid-area: john-text;
+  }
+
+  .bob-content {
+    grid-area: bob-text;
+  }
+
+  .heading-position {
+    font-size: 18px;
+    font-weight: 700;
+    width: 100%;
+    line-height: 1.5em;
+    margin: 0.5em 0.5em 0.5em 0.8em;
+  }
+
+  .heading-with-line {
+    background-color: transparent;
+    border-bottom: 1px solid #c78c06;
+    width: 100%;
+    line-height: 1.5em;
+  }
+
+  .our-team-p {
+    display: block;
+    margin: 0.5em 0.5em 0.5em 0.8em;
+  }
+
+  /* contact us/hours/location section */
+
+  .contact-us {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-row: 1;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    grid-gap: 3em;
+  }
+
+  .h2-contact {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+    font-size: 2.75em;
+    font-weight: 800;
+    margin: 1.25em 0 0.75em 0;
+  }
+
+  .card-13 {
+    grid-column: 1 / span 3;
+    grid-row: 2;
+  }
+
+  .card-14 {
+    grid-column: 1 / span 6;
+    grid-row: 3;
+  }
+
+  .card-15 {
+    grid-column: 4 / span 3;
+    grid-row: 2;
+  }
+
+  /* footer */
+
+  footer {
+    background-color: #222222;
+    color: #c78c06;
+  }
+
 }
