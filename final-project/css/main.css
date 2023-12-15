@@ -1,14 +1,66 @@
-.header {
-    background-color: #222222;
-    padding: 1rem;
+header {
+  background-color: #222222;
+  padding: 1rem;
+}
+
+header nav {
+  text-align: center;
 }
 
 nav ul {
-    list-style: none;
-    text-decoration: none;
+  list-style: none;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+
+.nav-buttons {
+  text-decoration: none;
+  color: #c78c06;
+}
+
+.main-banner {
+  background-image: url(../images/main-banner.jpg);
+  background-size: auto;
+  padding: 2rem 0 2rem;
 }
 
 .main-banner-content {
-  color: white;
+  width: 100%;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.385);
+  margin: 0;
+  padding: 1rem 1rem 2rem;
+  border: 1rem;
 }
 
+.about-us {
+  background-color: #ffe6ac;
+  margin-top: -1rem;
+}
+
+.about {
+  margin: 0.8rem;
+  width: 95%;
+  background-color: transparent;
+}
+
+.services-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: -1rem;
+}
+
+.text-background {
+  background-color: #ffe6ac;
+  margin: 0;
+  padding: 1rem 1rem 2rem;
+  border: 1rem;
+}
