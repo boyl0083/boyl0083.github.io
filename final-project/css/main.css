@@ -41,18 +41,6 @@ h4 {
   width: 100%;
 }
 
-/* h1 {
-  font-size: 2em;
-  font-weight: bold;
-  color: #ffffff;
-}
-
-h3 {
-  font-size: 1.2em;
-  font-weight: bold;
-  color: #222222;
-} */
-
 /* header and nav*/
 
 header {
@@ -115,18 +103,17 @@ form button {
   color: #ffffff;
 }
 
-/* connect with us */
+/* connect with us moblie button */
 
 .connect-button {
-  text-align: center;
-  text-decoration: none;
-  margin: 10px 0;
-  border: 0;
+  display: inline-block;
   background-color: #c78c06;
+  padding: 2em;
+  margin-top: 1em;
   color: #222222;
 }
 
-/* about us section */
+/* formats about us section with appropriate css and code */
 
 .about-us {
   background-color: #ffe6ac;
@@ -146,7 +133,7 @@ form button {
   width: 100%;
 }
 
-/* our services section */
+/* adds css to our services section */
 
 .services-image {
   width: 100%;
@@ -161,6 +148,8 @@ form button {
   border: 1rem;
 }
 
+/* creates button for mobile and gives appropriate css */
+
 .our-services-button {
   padding: 1rem;
   background-color: #222;
@@ -168,7 +157,7 @@ form button {
   text-decoration: none;
 }
 
-/* our vuision */
+/* css for our vuision mobile section */
 
 .vision {
   background-image: url(../images/vision.jpg);
@@ -189,7 +178,7 @@ form button {
   justify-content: center;
 }
 
-/* our team */
+/* adds background color to our team and creates formatting for html */
 
 .john-content {
   background-color: #ffe6ac;
@@ -214,7 +203,7 @@ form button {
   width: 100%;
 }
 
-/* contact us */
+/* contact us css for mobile mockup */
 
 form {
   display: block;
@@ -239,7 +228,7 @@ textarea {
   padding: 10px 15px;
 }
 
-/* table */
+/* creates table css and applies to html*/
 
 table {
   width: 100%;
@@ -257,7 +246,7 @@ th {
   background-color: #ffe6ac;
 }
 
-/* location */
+/* adds map to location */
 
 .map {
   width: 100%;
@@ -265,12 +254,14 @@ th {
   padding: 0 auto;
 }
 
-/* footer */
+/* css for footer in mobile view */
 
 footer {
   background-color: #222222;
   color: #c78c06;
 }
+
+/* creates and starts desktop css for website */
 
 @media screen and (min-width:760px) {
 
@@ -281,6 +272,8 @@ footer {
   body {
     max-width: 100%;
   }
+
+  /* basic text styles */
 
   h1 {
     font-size: 52px;
@@ -324,6 +317,8 @@ footer {
     display: inline-flex;
   }
 
+  /* adds css for desktop main banner */
+
   .main-banner {
     background: url(../images/main-banner.jpg) no-repeat center;
     background-size: cover;
@@ -335,7 +330,18 @@ footer {
     margin: 1em 6em 1em 6em;
   }
 
-  /* about us */
+  /* connect with us desktop button */
+
+  .connect-button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #c78c06;
+    padding: 2em;
+    margin-top: 1em;
+    color: #222222;
+  }
+
+  /* desktops'css for about us  */
 
   .about-us {
     padding: 10px 50px;
@@ -361,7 +367,7 @@ footer {
     width: 100%;
   }
 
-  /* our services */
+  /* adds and creates css for our services */
 
   .our-services {
     display: grid;
@@ -411,7 +417,7 @@ footer {
     text-decoration: none;
   }
 
-  /* our vision */
+  /* adds our vision css to code */
 
   .vision {
     margin-top: 20px;
@@ -432,7 +438,7 @@ footer {
     justify-content: center;
   }
 
-  /* our team */
+  /* creates grid for our team section */
 
   .our-team {
     display: grid;
@@ -466,6 +472,8 @@ footer {
     padding-top: 10px;
   }
 
+  /* creates grid-area titles */
+
   .image-john {
     grid-area: john-img;
   }
@@ -491,6 +499,8 @@ footer {
   .bob-content {
     grid-area: bob-text;
   }
+
+  /* font styling for out team section */
 
   .heading-position {
     font-size: 18px;
